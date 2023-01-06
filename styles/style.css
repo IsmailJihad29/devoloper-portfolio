@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* navigetion style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.nav-tittle-color {
+    color: #FD6E0A;
+}
+
+.btn-style {
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn2 {
+    color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+    border-color: #FD6E0A;
+}
+
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bntittle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin: 20px;
+}
+
+.bnname {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.bndis {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 156px;
+    text-align: center;
+
+}
+
+.sc-tittle {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+
+}
+
+.sc-dis {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.info-tittle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.info-dis{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+}
